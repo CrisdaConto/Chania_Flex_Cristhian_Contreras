@@ -1,0 +1,76 @@
+body {
+    font-family:'Lucida Sans', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.encabezado {
+    display: flex;
+    background-color: #9933cc;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container {    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 25px;
+}
+.container li{
+    display: flex;
+    background: white;
+    padding: 8px;
+    margin: 12px;
+    height: 16px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #33b5e5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+    .container li:hover {
+        background-color: #0099cc;
+        width: 100%;
+      }
+    .box {       
+        display: inline-block;
+        justify-content: space-between;
+        color: white;
+    }
+    .caja {
+        display: flex;
+        color: black;
+        padding: 15px;
+        margin: 10px;
+        text-align: left;
+        font-size: 15px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .hola {
+        display: inline-block;
+        width: 100%;
+    }
+    .box5 {
+        display: flex;
+        background-color: #33b5e5;
+        color: white;
+        padding: 10px;
+        margin: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .piedepagina{
+        display: flex;
+        background-color: #0099cc;
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+        padding: 15px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
